@@ -1,0 +1,30 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1763838970684,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1763839040996,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,45 +6,10 @@\n     <link rel=\"stylesheet\" href=\"styles.css\"> \n     <title>Opera doceria</title>\n </head>\n <body>\n-    <!DOCTYPE html>\n-<html lang=\"pt-BR\">\n-<head>\n-    </head>\n-<body>\n     \n     <div id=\"app\"></div> \n     \n-    <div id=\"grid-produtos\">\n-        <div class=\"grid grid-cols-5 gap-4\"> \n-\n-            <div class=\"flex flex-col\"> \n-                <div class=\"h-64 rounded-xl border-2 border-red-500 overflow-hidden\">\n-                    <img src=\"https://saborecia.com.br/wp-content/uploads/2020/08/MG_4421-scaled.jpg\" alt=\"brigadeiro\" class=\"w-full h-full object-cover\">\n-                </div>\n-                <div class=\"mt-2 text-center\">\n-                    <h4 class=\"font-semibold text-gray-800\">Brigadeiro Gourmet</h4>\n-                    <p class=\"text-pink-600 font-bold\">R$ 4,50</p>\n-                </div>\n-            </div>\n-            <div class=\"flex flex-col\">\n-                <div class=\"h-64 rounded-xl border-2 border-red-500 bg-gray-500 overflow-hidden\">\n-                    <img src=\"https://www.docemeldoces.com/wp-content/uploads/galeria-doces_22.jpg\" alt=\"donuts\" class=\"w-full h-full object-cover\">\n-                </div>\n-                <div class=\"mt-2 text-center\">\n-                    <h4 class=\"font-semibold text-gray-800\">Mini Donuts</h4>\n-                    <p class=\"text-pink-600 font-bold\">R$ 6,00</p>\n-                </div>\n-            </div>\n-            \n-            </div>\n-    </div>\n-    \n     <script type=\"module\" src=\"/src/main.js\"></script>\n </body>\n-</html>\n-    <div id=\"app\"></div> \n-    \n-    <script type=\"module\" src=\"/src/main.js\"></script>\n-</body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1763839292132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,15 @@\n+<!DOCTYPE html>\n+<html lang=\"pt-BR\">\n+<head>\n+    <meta charset=\"UTF-8\">\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n+    <link rel=\"stylesheet\" href=\"styles.css\"> \n+    <title>Opera doceria</title>\n+</head>\n+<body>\n+    \n+    <div id=\"app\"></div> \n+    \n+    <script type=\"module\" src=\"/src/main.js\"></script>\n+</body>\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1763844548502,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+<!DOCTYPE html>\r\n+<html lang=\"pt-BR\">\r\n+<head>\r\n+    <meta charset=\"UTF-8\">\r\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n+    <title>Opera Doceria</title>\r\n+</head>\r\n+<body>\r\n+    <div id=\"app\"></div>\r\n+    <script type=\"module\" src=\"/src/main.js\"></script>\r\n+</body>\r\n+</html>\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1763838970684,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link rel=\"stylesheet\" href=\"styles.css\"> \n    <title>Opera doceria</title>\n</head>\n<body>\n    <!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n    </head>\n<body>\n    \n    <div id=\"app\"></div> \n    \n    <div id=\"grid-produtos\">\n        <div class=\"grid grid-cols-5 gap-4\"> \n\n            <div class=\"flex flex-col\"> \n                <div class=\"h-64 rounded-xl border-2 border-red-500 overflow-hidden\">\n                    <img src=\"https://saborecia.com.br/wp-content/uploads/2020/08/MG_4421-scaled.jpg\" alt=\"brigadeiro\" class=\"w-full h-full object-cover\">\n                </div>\n                <div class=\"mt-2 text-center\">\n                    <h4 class=\"font-semibold text-gray-800\">Brigadeiro Gourmet</h4>\n                    <p class=\"text-pink-600 font-bold\">R$ 4,50</p>\n                </div>\n            </div>\n            <div class=\"flex flex-col\">\n                <div class=\"h-64 rounded-xl border-2 border-red-500 bg-gray-500 overflow-hidden\">\n                    <img src=\"https://www.docemeldoces.com/wp-content/uploads/galeria-doces_22.jpg\" alt=\"donuts\" class=\"w-full h-full object-cover\">\n                </div>\n                <div class=\"mt-2 text-center\">\n                    <h4 class=\"font-semibold text-gray-800\">Mini Donuts</h4>\n                    <p class=\"text-pink-600 font-bold\">R$ 6,00</p>\n                </div>\n            </div>\n            \n            </div>\n    </div>\n    \n    <script type=\"module\" src=\"/src/main.js\"></script>\n</body>\n</html>\n    <div id=\"app\"></div> \n    \n    <script type=\"module\" src=\"/src/main.js\"></script>\n</body>\n</html>"
+        }
+    ]
+}

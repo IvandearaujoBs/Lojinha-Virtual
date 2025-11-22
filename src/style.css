@@ -1,0 +1,96 @@
+@import "tailwindcss";
+/*:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}*/
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.cabecalho {
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 100px;
+    width: 100%;
+    
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+}
+
+
+
+/*
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 10px; 
+    width: 100%;
+    margin:  auto;
+}
+
+.grid-2 {
+   display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 10px; 
+    width: 100%;
+    margin:  auto;
+}
+
+.grid-2 p {
+      display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+    border: 1px solid rgb(221, 19, 19);
+    border-radius: 20px;
+    height: 10px;
+    width: 10px;
+    background-color: rgb(128, 120, 120);
+}
+
+.grid p {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+    border: 1px solid rgb(221, 19, 19);
+    border-radius: 20px;
+    height: 10px;
+    width: 10px;
+    background-color: rgb(128, 120, 120);
+   
+}
+*/
+
+.modal {
+    background-color: rgb(190, 50, 50);
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 250px;
+}
+
+.tag1 {
+  display: flex;
+  text-align: center;
+}
+.rodape {
+    background-color: red;
+    border: 1px solid black;
+    width: 100%;
+}

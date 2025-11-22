@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/style.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1763840393266,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1763842198605,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,14 +34,10 @@\n   gap: 10px;\n \n }\n \n-/*\n-  AS REGRAS ABAIXO FORAM REMOVIDAS/COMENTADAS POIS ESTAVAM CAUSANDO CONFLITO\n-  COM O TAILWIND E FORÇANDO O PREÇO A SER RENDERIZADO COMO UM CARD CINZA.\n-  O LAYOUT DO GRID DEVE SER CONTROLADO APENAS PELAS CLASSES DO TAILWIND NO APP.VUE.\n-*/\n \n+\n /*\n .grid {\n     display: grid;\n     grid-template-columns: repeat(6,1fr);\n"
+                }
+            ],
+            "date": 1763840393266,
+            "name": "Commit-0",
+            "content": "@import \"tailwindcss\";\n/*:root {\n  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;\n  line-height: 1.5;\n  font-weight: 400;\n\n  color-scheme: light dark;\n  color: rgba(255, 255, 255, 0.87);\n  background-color: #242424;\n\n  font-synthesis: none;\n  text-rendering: optimizeLegibility;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}*/\n\n* {\n    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;\n\n}\n\n.cabecalho {\n    background-color: red;\n    border: 1px solid black;\n    border-radius: 15px;\n    height: 100px;\n    width: 100%;\n    \n}\n\n.menu {\n  display: flex;\n  flex-direction: row;\n  gap: 10px;\n\n}\n\n/*\n  AS REGRAS ABAIXO FORAM REMOVIDAS/COMENTADAS POIS ESTAVAM CAUSANDO CONFLITO\n  COM O TAILWIND E FORÇANDO O PREÇO A SER RENDERIZADO COMO UM CARD CINZA.\n  O LAYOUT DO GRID DEVE SER CONTROLADO APENAS PELAS CLASSES DO TAILWIND NO APP.VUE.\n*/\n\n/*\n.grid {\n    display: grid;\n    grid-template-columns: repeat(6,1fr);\n    gap: 10px; \n    width: 100%;\n    margin:  auto;\n}\n\n.grid-2 {\n   display: grid;\n    grid-template-columns: repeat(6,1fr);\n    gap: 10px; \n    width: 100%;\n    margin:  auto;\n}\n\n.grid-2 p {\n      display: flex;\n    flex-wrap: wrap;\n    padding: 100px;\n    border: 1px solid rgb(221, 19, 19);\n    border-radius: 20px;\n    height: 10px;\n    width: 10px;\n    background-color: rgb(128, 120, 120);\n}\n\n.grid p {\n    display: flex;\n    flex-wrap: wrap;\n    padding: 100px;\n    border: 1px solid rgb(221, 19, 19);\n    border-radius: 20px;\n    height: 10px;\n    width: 10px;\n    background-color: rgb(128, 120, 120);\n   \n}\n*/\n\n.modal {\n    background-color: rgb(190, 50, 50);\n    border: 1px solid black;\n    border-radius: 15px;\n    height: 250px;\n}\n\n.tag1 {\n  display: flex;\n  text-align: center;\n}\n.rodape {\n    background-color: red;\n    border: 1px solid black;\n    width: 100%;\n}"
+        }
+    ]
+}
